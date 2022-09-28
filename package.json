@@ -105,7 +105,8 @@
     "react-navigation-stack": "^2.9.0",
     "react-test-renderer": "^16.13.1",
     "release-it": "^13.5.2",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "deprecated-react-native-prop-types": "^2.3.0"
   },
   "lint-staged": {
     "{src,Example}/**/*.{js,ts,tsx}": "yarn format-js",

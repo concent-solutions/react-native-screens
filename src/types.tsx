@@ -1,11 +1,11 @@
 import {
   Animated,
   NativeSyntheticEvent,
-  ViewProps,
   View,
   TargetedEvent,
   TextInputFocusEventData,
 } from 'react-native';
+import type {ViewPropTypes as ViewProps} from 'deprecated-react-native-prop-types';
 
 export type StackPresentationTypes =
   | 'push'

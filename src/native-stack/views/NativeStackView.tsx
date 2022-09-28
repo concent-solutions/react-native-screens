@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Platform, StyleSheet, View, ViewProps } from 'react-native';
+import { Platform, StyleSheet, View } from 'react-native';
+import type {ViewPropTypes as ViewProps} from 'deprecated-react-native-prop-types';
 // @ts-ignore Getting private component
 import AppContainer from 'react-native/Libraries/ReactNative/AppContainer';
 import warnOnce from 'warn-once';

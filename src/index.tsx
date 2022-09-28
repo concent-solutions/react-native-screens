@@ -1,5 +1,6 @@
 import React from 'react';
-import { Animated, View, ViewProps, ImageProps, Image } from 'react-native';
+import { Animated, View, ImageProps, Image } from 'react-native';
+import type {ViewPropTypes as ViewProps} from 'deprecated-react-native-prop-types';
 import {
   ScreenProps,
   ScreenContainerProps,

@@ -6,7 +6,7 @@
 import * as React from 'react';
 
 import codegenNativeComponent from 'react-native/Libraries/Utilities/codegenNativeComponent';
-import type { ViewProps } from 'react-native/Libraries/Components/View/ViewPropTypes';
+import type {ViewPropTypes as ViewProps} from 'deprecated-react-native-prop-types';
 import type { HostComponent } from 'react-native/Libraries/Renderer/shims/ReactNativeTypes';
 import type { WithDefault } from 'react-native/Libraries/Types/CodegenTypes';
 

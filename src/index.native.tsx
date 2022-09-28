@@ -8,8 +8,8 @@ import {
   StyleSheet,
   UIManager,
   View,
-  ViewProps,
 } from 'react-native';
+import type {ViewPropTypes as ViewProps} from 'deprecated-react-native-prop-types';
 import { Freeze } from 'react-freeze';
 import { version } from 'react-native/package.json';
 
